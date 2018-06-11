@@ -20,7 +20,7 @@ public class NumberString {
 		Maxmin m = new Maxmin();
 		System.out.println("The difference of max and min numbers of the input is: " + m.maxmindiff(nums));
 		
-		
+		System.out.println("Enter a value on which the math functions are to be applied");
 		Scanner scc = new Scanner(System.in);
 		double dd = scc.nextDouble();
 		System.out.println("The cube root of the entered value is: "+ Math.cbrt(dd));
